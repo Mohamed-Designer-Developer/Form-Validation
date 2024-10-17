@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Up</title>
+    <link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FORM VALIDATION</h1>
+        <p>Create an account on out Platform</p>
+        <form>
+            <div>
+                <input type="text" id="name" placeholder="Enter Your Username">
+            </div>
+            <div>
+                <!-- <input type="email" id="email" placeholder="Enter Your Email"> -->
+                <input type="text" id="email" placeholder="Enter Your Email">
+            </div>
+            <div>
+                <input type="password" id="password" placeholder="Enter Your Password">
+            </div>
+            <div>
+                <input type="password" id="confirm-password" placeholder="Confirm Your Password">
+                <span class="hidden">Between 8 and 20 Character</span>
+            </div>
+            <button type="submit">Sign Up</button>
+            <p>Already have an account? <a href="#">login in</a></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
